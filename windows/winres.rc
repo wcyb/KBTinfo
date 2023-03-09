@@ -1,0 +1,35 @@
+// clang-format off
+#include "winver.h"
+
+EXE_ICON ICON "car-battery-solid.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   0x3FL
+FILEFLAGS       0x0L
+FILEOS          VOS__WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004B0"
+        BEGIN
+            VALUE "CompanyName",      "Wojciech Cybowski"
+            VALUE "FileDescription",  "Software for reading and visualization of data from Konnwei battery testers."
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "InternalName",     "KBTinfo"
+            VALUE "LegalCopyright",   "(c) Wojciech Cybowski. All rights reserved."
+            VALUE "OriginalFilename", "KBTinfo.exe"
+            VALUE "ProductName",      "KBTinfo"
+            VALUE "ProductVersion",   "1.0.0.0"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0000, 0x04B0
+    END
+END
+    // clang-format on
