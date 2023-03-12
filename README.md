@@ -49,3 +49,5 @@ Data packets have the following format:
 - [ ] Voltage waveform printing.
 - [ ] Battery parameters printing.
 - [ ] Voltage waveform and battery parameters printing.
+
+### For non-commercial use only.
