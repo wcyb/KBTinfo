@@ -1,7 +1,7 @@
 # KBTinfo
 Software for reading and visualizing data from Konnwei battery testers, created using Qt 6.  
-Allows you to completely replace the "UPLINK" software from the manufacturer.  
-Operation was tested on the KW650 tester, but the program should be compatible with all testers that are supported by "UPLINK", which are:
+Allows you to completely replace the "BTLINK" software from the manufacturer.  
+Operation was tested on the KW650 tester, but the program should be compatible with all testers that are supported by "BTLINK", which are:
 
 - KW210
 - KW600
